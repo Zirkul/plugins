@@ -92,7 +92,6 @@ load zap
   - # Use this character or the command 'exit' to go back to the previous mode
 # Print the results summary
 print issues
-'
 ```
 You will see soemthing like this:
 ![image](https://github.com/user-attachments/assets/d6e50239-6712-4b5e-b2cf-02518b298ace)
@@ -110,5 +109,6 @@ You can write your own private plugins and use the argument `--plugins` for defi
 
 More detailed information can be found in the [docs](https://docs.zirkul.com/zirkul-agent/running-the-agent/command-line-interface)
 
-We really hope this toll will be helpful to you and feel free to reports any bugs as issues here or sending an email to support@zirkul.com
+We really want this tool to be helpful to you, feel free to report any bugs here or send an email to support@zirkul.com
 
+More advanced features like using the SaaS platform for storing and running the scripts (Jobs) automatically in multiple servers, DevSecOps CICD features and more are available in the commercial version available at [zirkul.com](https://www.zirkul.com) but everything included in the CLI tool is free and this repository will continue as open source for the community.
