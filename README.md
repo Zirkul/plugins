@@ -48,13 +48,18 @@ Optionally in OSX you can install the tool by simply opening the zirkul.pkg file
 
 # Getting started
 There are many things you can do with Zirkul CLI, let's start by running the tool with the argument `--help` for listing the options available:
+
 ![image](https://github.com/user-attachments/assets/7c496acf-cc01-4121-a114-3b1687e32e65)
+
 You can ignore the commercial features not discussed here, for now we can focus in the argument `--script` for running a script but first let's create a new text file in the editor of your preference:
+
 ![image](https://github.com/user-attachments/assets/2591d246-dac8-4189-9a94-0a2dd2524dc0)
+
 Then you can run your script with:
 ``` bash
 zirkul --script my_script.txt
 ```
+
 ![image](https://github.com/user-attachments/assets/fe4d7de4-5d56-4000-a0ed-6ee755163b3c)
 
 
