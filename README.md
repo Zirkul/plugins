@@ -62,5 +62,4 @@ zirkul --script my_script.txt
 
 ![image](https://github.com/user-attachments/assets/fe4d7de4-5d56-4000-a0ed-6ee755163b3c)
 
-
 For more information see the [docs](https://docs.zirkul.com/zirkul-agent/running-the-agent/command-line-interface)
