@@ -62,4 +62,22 @@ zirkul --script my_script.txt
 
 ![image](https://github.com/user-attachments/assets/fe4d7de4-5d56-4000-a0ed-6ee755163b3c)
 
+Let's improve our script a little bit by doing something more useful like generating a hash or encoding a value in base64, start zirkul with no arguments for using the interactive mode and type the following instructions:
+```bash
+zirkul # Start Zirkul CLI in interactive mode
+# Zirkul instructions start here
+# This is how you can use comments in your script
+
+var my_value = 'This is some evidence gathered from some malicious site'
+var my_hash = sha2(my_value) # Store the SHA 256 hash in the variable my_hash
+print my_hash # Print the hash in the terminal
+var encoded_value = to_base64(my_value) # Encode the value using Base 64
+print encoded_value # Print the encoded value in the terminal
+var decoded_value = from_base64(encoded_value) # Decode the Base 64 value
+print decoded_value # Print the decoded value for validation purposes
+```
+![image](https://github.com/user-attachments/assets/ffc1fd33-6dc5-4af9-a7a9-46d5ca2ecca9)
+
+
+
 For more information see the [docs](https://docs.zirkul.com/zirkul-agent/running-the-agent/command-line-interface)
