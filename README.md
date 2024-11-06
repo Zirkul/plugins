@@ -1,5 +1,5 @@
 # Zirkul CLI Plugins repository
-Zirkul CLI is a portable tool for automating cyber security tasks for Pros and newbies trough plugins created and mantained by the community, all plugins in this repository are open source and everybody is welcome to join and provide scripts for the community.
+Zirkul CLI is a portable tool for automating cyber security tasks for Pros and newbies trough plugins created and mantained by the community, all plugins in this repository are open source and everybody is welcome to join and provide scripts and plugins for the community.
 
 This tool is free and it's provided as portable executable files that have been tested in Windows x64, OSX Apple Silicon and Linux distros such as Kali or ParrotOS.
 
@@ -22,25 +22,21 @@ curl -o zirkul.exe https://app.zirkul.com/api/agent/windows
 Linux:
 ```
 curl -o zirkul https://app.zirkul.com/api/agent/linux
-
 ```
 OSX (Apple Silicon):
 ```
 curl -o zirkul.pkg https://app.zirkul.com/api/agent/osx
-
 ```
 ## Running
 From the terminal in your computer simply run the tool:
 Windows:
 ```
 zirkul.exe
-
 ```
 Linux:
 ```
 chmod +x zirkul
 zirkul
-
 ```
 OSX (Apple Silicon):
 ```
@@ -48,3 +44,5 @@ sudo installer -pkg zirkul.pkg -target ~/Applications
 zirkul
 ```
 Optionally in OSX you can install the tool by simply opening the zirkul.pkg file directly from finder.
+![image](https://github.com/user-attachments/assets/c393bedf-c269-4367-a566-72f5aa32db1a)
+
