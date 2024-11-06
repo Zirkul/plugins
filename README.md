@@ -78,6 +78,37 @@ print decoded_value # Print the decoded value for validation purposes
 ```
 ![image](https://github.com/user-attachments/assets/ffc1fd33-6dc5-4af9-a7a9-46d5ca2ecca9)
 
+All instructions and commands you can use in the interactive CLI can be included in your scripts for automating repetitive tasks.
 
+Now let's see how to use plugins, the command `plugins` will show the list of plugins available, new plugins and updates are downloaded automatically:
+![image](https://github.com/user-attachments/assets/975ad220-def0-4bda-9ec1-af6fe14720f4)
 
-For more information see the [docs](https://docs.zirkul.com/zirkul-agent/running-the-agent/command-line-interface)
+Assuming you have ZAP installed, then you can run a scan with this simple script:
+```
+load zap
+  url: 'http://scanme.org/'
+  scantype: 'spider' # Just run the spider for demonstration purposes
+  run
+  - # Use this character or the command 'exit' to go back to the previous mode
+# Print the results summary
+print issues
+'
+```
+You will see soemthing like this:
+![image](https://github.com/user-attachments/assets/d6e50239-6712-4b5e-b2cf-02518b298ace)
+
+![image](https://github.com/user-attachments/assets/2aab3316-5d8f-42ba-87aa-da173258fbf9)
+
+You can finally do something with the results, for example, exporting the issues in json format:
+```
+export issues json my_results.json
+```
+![image](https://github.com/user-attachments/assets/7663b0e3-6206-483e-8927-dd8458e134f9)
+
+New plugins are added to this repository every week, creating new plugins is easy and you can use the sample.py provided here as the starting point or just duplicate any other existing plugin making your adjustments.
+You can write your own private plugins and use the argument `--plugins` for defining the path where they are stored.
+
+More detailed information can be found in the [docs](https://docs.zirkul.com/zirkul-agent/running-the-agent/command-line-interface)
+
+We really hope this toll will be helpful to you and feel free to reports any bugs as issues here or sending an email to support@zirkul.com
+
