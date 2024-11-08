@@ -1,6 +1,6 @@
 [
   {"name": "repository_path", "description": "Path where the source code is located", "type": "string",
-    "required": true, "value": "D:\\Users\\daniel.hoffman\\Desktop\\projects_dependency_test\\Frontend-react"},
+    "required": true, "value": "\\projects_dependency_test\\Frontend-react"},
   {"name": "output", "description": "Directory path for exported results", "type": "string",
     "required": false, "value": "./uni_reported"},
   {"name": "export_format", "description": "Format to export the results", "type": ["HTML", "JSON", "XML", "JUNIT",
@@ -18,5 +18,5 @@
   {"name": "advance_help", "description": "Enable/Disable advanced help", "type": ["yes", "no"], "required": false,
     "value": "no"},
   {"name": "custom_path", "description": "If Dependency-Check is not in OS PATH, specify the path", "type": "file",
-    "required": false, "value": " D:\\Users\\daniel.hoffman\\Desktop\\dependency-check\\bin\\dependency-check.bat"}
+    "required": false, "value": "\\dependency-check\\bin\\dependency-check.bat"}
 ]

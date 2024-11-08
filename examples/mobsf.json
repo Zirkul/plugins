@@ -4,7 +4,7 @@
     {"name": "api_url", "description": "URL used for connecting to MobSF",
      "type": "url", "required": true, "value": "http://127.0.0.1:8000/"},
     {"name": "api_key", "description": "The API key required by MobSF",
-     "type": "string", "required": true, "value": "f32689d1c53530e6e6bb4d264bb64dc8d82012a1a15b7f83045f2c412d9675c9"},
+     "type": "string", "required": true, "value": "XXXXX"},
     {"name": "action", "description": "The action to be performed by the module",
      "type": ["full_scan", "pull_results", "import_json_file", "export_json_file"], "required": true,
      "value": "pull_results"},

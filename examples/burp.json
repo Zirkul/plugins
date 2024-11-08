@@ -10,7 +10,7 @@
     {"name": "apikey", "description": "Setup a custom API key for connecting to Burp",
      "type": "string", "required": false, "value": null},
     {"name": "path", "description": "Custom path for locating the file burp.jar", "type": "string", "required": false,
-     "value": "/Users/mrobles/Documents/tools/burpsuite_pro_v2021.10.2.jar"},
+     "value": "/burpsuite_pro_v2021.10.2.jar"},
     {"name": "scantype",
      "description": "What scan type do you want Burp to run (pull: Just pull the results): spider,active,full,pull",
      "type": ["spider", "active", "full", "pull"], "required": true, "value": "spider"},

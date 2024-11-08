@@ -1,4 +1,4 @@
 [
-    {"name": "host", "description": "Host name or IP address", "type": "string", "required": true, "value": "lab2.wj.cr"},
+    {"name": "host", "description": "Host name or IP address", "type": "string", "required": true, "value": "evil.com"},
     {"name": "port", "description": "TCP port, the default is 80", "type": "integer", "required": false, "value": 80}
 ]
