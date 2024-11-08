@@ -1,0 +1,22 @@
+[
+  {"name": "repository_path", "description": "Path where the source code is located", "type": "string",
+    "required": true, "value": "D:\\Users\\daniel.hoffman\\Desktop\\projects_dependency_test\\Frontend-react"},
+  {"name": "output", "description": "Directory path for exported results", "type": "string",
+    "required": false, "value": "./uni_reported"},
+  {"name": "export_format", "description": "Format to export the results", "type": ["HTML", "JSON", "XML", "JUNIT",
+    "SARIF", "JENKINS", "GITLAB", "ALL"], "required": false, "value": "HTML"},
+  {"name": "auto_update",
+    "description": "Enable/Disable automatic updating of the NVD-CVE, hosted-suppressions and RetireJS",
+    "type": ["yes", "no"], "required": true, "value": "no"},
+  {"name": "nvd_apikey", "description": "NVD Data Base API Key", "type": "string", "required": false, "value": null},
+  {"name": "project_name", "description": "Name of the project to be scanned", "type": "string", "required": false,
+    "value": "MyProject"
+  }, {"name": "experimental", "description": "Enable/Disable experimental analyzers", "type": ["yes", "no"],
+  "required": false, "value": "no"},
+  {"name": "suppression_file", "description": "Path to the suppression file", "type": "file",
+    "required": false, "value": null},
+  {"name": "advance_help", "description": "Enable/Disable advanced help", "type": ["yes", "no"], "required": false,
+    "value": "no"},
+  {"name": "custom_path", "description": "If Dependency-Check is not in OS PATH, specify the path", "type": "file",
+    "required": false, "value": " D:\\Users\\daniel.hoffman\\Desktop\\dependency-check\\bin\\dependency-check.bat"}
+]

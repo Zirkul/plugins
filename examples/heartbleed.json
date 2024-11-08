@@ -1,0 +1,4 @@
+[
+    {"name": "host", "description": "Host name or IP address", "type": "domainorip", "required": true, "value": "lab.wj.cr"},
+    {"name": "port", "description": "TCP port, the default is 443", "type": "port", "required": false, "value": 443}
+]

@@ -1,0 +1,5 @@
+bs4
+requests
+python-owasp-zap-v2.4
+xmltodict
+urllib3

@@ -1,0 +1,23 @@
+[
+    {"name": "nessus_url", "description": "URL from Nessus Server API", "type": "url",
+     "required": true, "value": "https://nessus.<company>:8834/"},
+    {"name": "username", "description": "Nessus account username", "type": "string",
+      "required": true, "value": "<account>"},
+    {"name": "password", "description": "Nessus account password", "type": "string",
+      "required": true, "value": "<SuperSecretPassword>"},
+    {"name": "scope", "description": "Scope to be scanned (IP, network range, domains)",
+     "type": "string", "required": true, "value": "10.20.12.130"},
+    {"name": "scan_policy", "description": "Name of the policy or template used for the scan",
+     "type": "string", "required": true, "value": "External Network Scan Production (IDS -no ping)"},
+    {"name": "folder_name", "description": "Folder where scans are hosted (scope/target folder)", "type": "string",
+     "required": true, "value": "Zirkul-Testing"},
+    {"name": "file_name", "description": "Name of the Scan", "type": "string",
+     "required": false, "value": "Zirkul new test2"},
+    {"name": "action", "description": "Action required to be performed",
+     "type": ["scan_pull_results", "scan_only", "pull_results", "load_file", "export_results"], "required": false,
+      "value": "scan_pull_results"},
+    {"name": "timeout", "description": "Maximum waiting time at end of scanning (in hours)", "type": "integer",
+     "required": false, "value": 3},
+    {"name": "local_nessus_file", "description": "Local Nessus file to parse in \"load_file\" mode", "type": "string",
+      "required": false, "value": null }
+]
